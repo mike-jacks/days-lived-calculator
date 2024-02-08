@@ -9,9 +9,9 @@ class Person:
 
 
 def main():
-    axel = Person(name="Axel", age_in_years= 38)
-    axel_age_in_days = axel.get_age_in_days()
-    print(axel_age_in_days)
+    axel = Person(name="Axel", age_in_years= 11)
+    days = axel.get_age_in_days()
+    print(days)
     
 if __name__ == "__main__":
     main()
